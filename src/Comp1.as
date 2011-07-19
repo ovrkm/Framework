@@ -8,7 +8,7 @@ package {
 	{
 		public function Comp1()
 		{
-
+			trace(11111);
 		}
 	}
 }
