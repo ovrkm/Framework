@@ -21,11 +21,13 @@ package
 
 		public function Framework()
 		{
+			stage.scaleMode = StageScaleMode.NO_SCALE;
+
 			var assetsBytes:ByteArray = new AssetsClass();
 
 			var loader:Loader = new Loader();
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, completeHandler);
-			loader.loadBytes(assetsBytes, new LoaderContext(ApplicationDomain.currentDomain));
+			loader.loadBytes(assetsBytes, new LoaderContext(false, ApplicationDomain.currentDomain));
 		}
 
 		private function completeHandler(event:Event):void

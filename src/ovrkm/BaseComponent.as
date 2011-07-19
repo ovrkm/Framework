@@ -1,5 +1,5 @@
 package
-{
+ovrkm{
 
 	import com.greensock.TimelineMax;
 	import com.greensock.TweenMax;
@@ -7,7 +7,9 @@ package
 
 	import flash.display.MovieClip;
 
-	public class BaseComponent extends MovieClip
+	import mx.core.IUIComponent;
+
+	public class BaseComponent extends MovieClip implements IViewComponent
 	{
 		public var inTimeline:TimelineMax;
 		public var outTimeline:TimelineMax;
