@@ -1,12 +1,13 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Windows" versionInfo="Saved by Adobe Flash Windows 11.0 build 489" majorVersion="11" buildNumber="489" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <symbols>
           <Include href="Comp.xml"/>
+          <Include href="Comp1.xml"/>
           <Include href="Symbol 1.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+                    <DOMLayer name="Layer 1" color="#4FFF4F">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -24,13 +25,29 @@
                                                   <Edge strokeStyle="1" edges="!3679 3440|760 3440!760 3440|760 800!760 800|3679 800!3679 800|3679 3440"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMSymbolInstance libraryItemName="Comp" name="" selected="true" centerPoint3DX="322.9" centerPoint3DY="94">
+                                        <DOMSymbolInstance libraryItemName="Comp" name="" centerPoint3DX="72.95" centerPoint3DY="68">
                                              <matrix>
-                                                  <Matrix tx="249.95" ty="28"/>
+                                                  <Matrix ty="2"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="72.95" y="66"/>
                                              </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Comp1" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Comp1" name="" centerPoint3DX="98.95" centerPoint3DY="92">
+                                             <transformationPoint>
+                                                  <Point x="98.95" y="92"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color tintMultiplier="1" tintColor="#990000"/>
+                                             </color>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
