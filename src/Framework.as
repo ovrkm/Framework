@@ -5,13 +5,11 @@ package
 	import flash.display.MovieClip;
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
-	import flash.events.MouseEvent;
 	import flash.system.ApplicationDomain;
 	import flash.system.LoaderContext;
 	import flash.utils.ByteArray;
 
-	import org.robotlegs.mvcs.Context;
-
+	import framework.view.View;
 
 	public class Framework extends MovieClip
 	{

@@ -9,7 +9,7 @@ ovrkm{
 
 	import mx.core.IUIComponent;
 
-	public class BaseComponent extends MovieClip implements IViewComponent
+	public class BaseComponent extends MovieClip
 	{
 		public var inTimeline:TimelineMax;
 		public var outTimeline:TimelineMax;

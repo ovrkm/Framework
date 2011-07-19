@@ -1,4 +1,4 @@
-package {
+package framework.view{
 
 	import flash.display.MovieClip;
 

@@ -1,5 +1,5 @@
 package
-{
+framework.view{
 	import flash.display.MovieClip;
 	import flash.display.StageScaleMode;
 	import flash.events.MouseEvent;
