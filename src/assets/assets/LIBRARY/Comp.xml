@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Comp" itemID="4e0b07d4-000002e8" linkageExportForAS="true" linkageClassName="Comp" sourceLibraryItemHRef="Symbol 2" lastModified="1311073523" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Comp" itemID="4e0b07d4-000002e8" linkageExportForAS="true" linkageClassName="framework.view.Comp" sourceLibraryItemHRef="Symbol 2" lastModified="1311084017" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="Comp">
       <layers>

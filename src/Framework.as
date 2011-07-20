@@ -3,6 +3,7 @@ package
 
 	import flash.display.Loader;
 	import flash.display.MovieClip;
+	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	import flash.system.ApplicationDomain;
@@ -20,6 +21,7 @@ package
 		public function Framework()
 		{
 			stage.scaleMode = StageScaleMode.NO_SCALE;
+			stage.align = StageAlign.TOP_LEFT;
 
 			var assetsBytes:ByteArray = new AssetsClass();
 

@@ -8,10 +8,32 @@
 package framework.controller
 {
 
+	import flash.events.Event;
+
+	import framework.model.Model;
+
 	public class Controller
 	{
-		public function Controller()
+		public var transitionController:TransitionController;
+
+		public function Controller(model:Model)
 		{
+			transitionController = new TransitionController(model);
+		}
+
+		public function launch():void
+		{
+			transitionController.playLaunch();
+		}
+
+		public function playOut():void
+		{
+			transitionController.playOut();
+		}
+
+		public function menuButtonClicked(event:Event):void
+		{
+
 		}
 	}
 }

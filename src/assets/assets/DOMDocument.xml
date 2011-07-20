@@ -2,7 +2,13 @@
      <symbols>
           <Include href="Comp.xml"/>
           <Include href="Comp1.xml"/>
+          <Include href="Main.xml"/>
+          <Include href="Menu.xml"/>
           <Include href="Symbol 1.xml" loadImmediate="false"/>
+          <Include href="Symbol 2.xml" loadImmediate="false"/>
+          <Include href="Symbol 3.xml" loadImmediate="false"/>
+          <Include href="Symbol 4.xml" loadImmediate="false"/>
+          <Include href="Symbol 5.xml" loadImmediate="false"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -22,10 +28,10 @@
                                                   </StrokeStyle>
                                              </strokes>
                                              <edges>
-                                                  <Edge strokeStyle="1" edges="!3679 3440|760 3440!760 3440|760 800!760 800|3679 800!3679 800|3679 3440"/>
+                                                  <Edge strokeStyle="1" edges="!3679 3440S4|760 3440!760 3440|760 800!760 800|3679 800!3679 800|3679 3440"/>
                                              </edges>
                                         </DOMShape>
-                                        <DOMSymbolInstance libraryItemName="Comp" name="" centerPoint3DX="72.95" centerPoint3DY="68">
+                                        <DOMSymbolInstance libraryItemName="Comp" name="" selected="true" centerPoint3DX="72.95" centerPoint3DY="68">
                                              <matrix>
                                                   <Matrix ty="2"/>
                                              </matrix>
@@ -41,7 +47,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Comp1" name="" centerPoint3DX="98.95" centerPoint3DY="92">
+                                        <DOMSymbolInstance libraryItemName="Comp1" name="" selected="true" centerPoint3DX="98.95" centerPoint3DY="92">
                                              <transformationPoint>
                                                   <Point x="98.95" y="92"/>
                                              </transformationPoint>
@@ -359,6 +365,8 @@
      </extendedSwatchLists>
      <PrinterSettings/>
      <publishHistory>
+          <PublishItem publishSize="6347" publishTime="1311091396"/>
+          <PublishItem publishSize="2211" publishTime="1311084439"/>
           <PublishItem publishSize="1668" publishTime="1311074993"/>
           <PublishItem publishSize="1693" publishTime="1309346502"/>
           <PublishItem publishSize="2838" publishTime="1309346323"/>

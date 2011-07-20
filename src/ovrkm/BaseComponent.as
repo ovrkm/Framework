@@ -11,30 +11,25 @@ ovrkm{
 
 	public class BaseComponent extends MovieClip
 	{
-		public var inTimeline:TimelineMax;
-		public var outTimeline:TimelineMax;
-
 		public function BaseComponent()
 		{
 			stop();
-
-			inTimeline = new TimelineMax({useFrames:true});
-			inTimeline.append(TweenMax.fromTo(this, totalFrames, {ease:Linear.easeNone, frame:1, useFrames:true}, {ease:Linear.easeNone, frame:totalFrames, useFrames:true}));
-			inTimeline.pause();
-
-			outTimeline = new TimelineMax({useFrames:true});
-			outTimeline.append(TweenMax.fromTo(this, totalFrames, {ease:Linear.easeNone, frame:totalFrames, useFrames:true}, {ease:Linear.easeNone, frame:1, useFrames:true}));
-			outTimeline.pause();
 		}
 
-		public function show(fromStart:Boolean=false):void
+		public function getOutTimeline():TimelineMax
 		{
-			inTimeline.restart();
+			var timeline:TimelineMax = new TimelineMax({useFrames:true});
+			timeline.append(TweenMax.fromTo(this, totalFrames, {ease:Linear.easeNone, frame:totalFrames, useFrames:true}, {ease:Linear.easeNone, frame:1, useFrames:true}));
+
+			return timeline;
 		}
 
-		public function hide(fromStart:Boolean=false):void
+		public function getInTimeline():TimelineMax
 		{
-			outTimeline.restart();
+			var timeline:TimelineMax = new TimelineMax({useFrames:true});
+			timeline.append(TweenMax.fromTo(this, totalFrames, {ease:Linear.easeNone, frame:1, useFrames:true}, {ease:Linear.easeNone, frame:totalFrames, useFrames:true}));
+
+			return timeline;
 		}
 	}
 }

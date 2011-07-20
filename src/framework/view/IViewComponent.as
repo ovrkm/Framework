@@ -5,11 +5,13 @@
  * Time: 16:56
  * To change this template use File | Settings | File Templates.
  */
-package ovrkm
+package framework.view
 {
+	import framework.controller.Controller;
+	import framework.model.Model;
 
 	public interface IViewComponent
 	{
-		function inject():void
+		function inject(m:Model, c:Controller):void
 	}
 }
